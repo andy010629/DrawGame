@@ -1,0 +1,55 @@
+{
+    "name": "CloudClass",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@vue/component-compiler-utils": "^3.1.2",
+        "axios": "^0.21.1",
+        "core-js": "^3.6.5",
+        "portfinder": "^1.0.21",
+        "vue": "^3.0.0",
+        "vue-click-outside": "^1.1.0",
+        "vue-cookie": "^1.1.4",
+        "vue-loader": "^16.5.0",
+        "vue-router": "^4.0.0-0",
+        "vue-sweetalert2": "^5.0.2",
+        "vue-template-compiler": "2.6.14",
+        "vue3-click-away": "^1.2.1",
+        "vue3-cookies": "^1.0.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "^3.1.1",
+        "@vue/cli-plugin-router": "^4.5.13",
+        "@vue/cli-service": "^4.5.13",
+        "@vue/compiler-sfc": "^3.2.11",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^7.0.0",
+        "sweetalert2": "^11.1.5"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/vue3-essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
